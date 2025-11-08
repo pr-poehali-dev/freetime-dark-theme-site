@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Minecraft:wght@400;700&family=Press+Start+2P&family=Rubik:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 264 95% 3%;
-    --foreground: 264 15% 95%;
+    --background: 120 10% 8%;
+    --foreground: 120 10% 95%;
 
-    --card: 264 50% 8%;
-    --card-foreground: 264 15% 95%;
+    --card: 120 10% 12%;
+    --card-foreground: 120 10% 95%;
 
-    --popover: 264 50% 8%;
-    --popover-foreground: 264 15% 95%;
+    --popover: 120 10% 12%;
+    --popover-foreground: 120 10% 95%;
 
-    --primary: 263 70% 65%;
-    --primary-foreground: 264 95% 3%;
+    --primary: 0 70% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 199 89% 48%;
-    --secondary-foreground: 264 95% 3%;
+    --secondary: 120 60% 45%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 264 50% 15%;
-    --muted-foreground: 264 15% 70%;
+    --muted: 120 10% 20%;
+    --muted-foreground: 120 5% 65%;
 
-    --accent: 263 70% 65%;
-    --accent-foreground: 264 95% 3%;
+    --accent: 120 60% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 264 15% 95%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 264 50% 15%;
-    --input: 264 50% 15%;
-    --ring: 263 70% 65%;
+    --border: 120 10% 20%;
+    --input: 120 10% 20%;
+    --ring: 0 70% 50%;
 
-    --radius: 0.75rem;
+    --radius: 0.25rem;
 
-    --sidebar-background: 264 95% 3%;
-    --sidebar-foreground: 264 15% 95%;
-    --sidebar-primary: 263 70% 65%;
-    --sidebar-primary-foreground: 264 95% 3%;
-    --sidebar-accent: 264 50% 15%;
-    --sidebar-accent-foreground: 264 15% 95%;
-    --sidebar-border: 264 50% 15%;
-    --sidebar-ring: 263 70% 65%;
+    --sidebar-background: 120 10% 8%;
+    --sidebar-foreground: 120 10% 95%;
+    --sidebar-primary: 0 70% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 120 10% 20%;
+    --sidebar-accent-foreground: 120 10% 95%;
+    --sidebar-border: 120 10% 20%;
+    --sidebar-ring: 0 70% 50%;
   }
 }
 
@@ -63,6 +63,6 @@
   h4,
   h5,
   h6 {
-    font-family: "Orbitron", sans-serif;
+    font-family: "Press Start 2P", cursive;
   }
 }
